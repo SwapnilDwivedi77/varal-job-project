@@ -14,6 +14,7 @@ import SignUpFrm from './Components/Signin/SignUpFrm/SignUpFrm';
 import Signin from './Components/Signin/Signin';
 import SignupWithUserSelection from './Components/Signin/SignupWithUserSelection/SignupWithUserSelection';
 import TransactionHistory from './Components/TransactionHistory';
+import Dashboard from './Components/Dashboard/Dashboard';
 import WelcomePage from './Components/WelcomePage/WelcomePage';
 // import FooterMobileNav from './Shared/FooterMobileNav/FooterMobileNav';
 // import JobsCard from './Components/JobsCard/JobsCard';
@@ -35,6 +36,7 @@ function App() {
         <Route path="/dataPrivacy" element={<DataPrivacy/>} />
         <Route path="/transaction-history" element={<TransactionHistory/>} />
         <Route path="/notifications" element={<Notifications/>} />
+        <Route path='/dashboard' element={<Dashboard/>} />
         {/* <Route path="/jobsCard" element={<FooterMobileNav/>} /> */}
       </Routes>
    <Footer/>
