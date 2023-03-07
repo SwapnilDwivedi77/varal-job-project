@@ -5,6 +5,7 @@ import Banner from './Banner/Banner'
 import Overview from './OverView/Overview'
 import './Dashboard.css'
 import TransactionTable from './TransactionTable/TransactionTable'
+import JobTabTable from './JobTabTable/JobTabTable'
 
 function Dashboard() {
   return (
@@ -14,6 +15,7 @@ function Dashboard() {
     <Banner/>
     <Overview/>
     <TransactionTable/>
+    <JobTabTable/>
 
     </Container>
     </>

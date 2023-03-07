@@ -1,6 +1,7 @@
 .trxn-table-container {
     text-align: left;
     margin-top: 20px;
+    
 
 }
 .transaction-heading {
@@ -22,6 +23,10 @@
 
 .view-all-link{
     float: right;
+    font-weight: 500;
+font-size: 22px;
+margin-right: 25px;
+/* line-height: 30px; */
     
 }
 .view-all-link a {
