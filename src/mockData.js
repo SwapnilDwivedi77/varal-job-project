@@ -74,3 +74,29 @@ export const trxnHistoryList = [
     read:false}
 
   ]
+
+  export const jobList = [{
+    id: 1,
+    companyName: 'Imperial Solutions',
+    jobTitle: 'Software Engineer',
+    date : '02/02/2023',
+    status: 'Active'
+  },{
+    id: 2,
+    companyName: 'Imperial Solutions',
+    jobTitle: 'Software Engineer',
+    date : '02/02/2023',
+    status: 'Inactive'
+  },{
+    id: 3,
+    companyName: 'Imperial Solutions',
+    jobTitle: 'Software Engineer',
+    date : '02/02/2023',
+    status: 'Active'
+  },{
+    id: 4,
+    companyName: 'Imperial Solutions',
+    jobTitle: 'Software Engineer',
+    date : '02/02/2023',
+    status: 'Active'
+  }]
