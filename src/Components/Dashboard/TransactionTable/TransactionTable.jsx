@@ -35,10 +35,10 @@ function TransactionTable() {
                       ? "#F3B412"
                       : "#DA2626";
                   return (
-                    <tr className="bg-white" key={trxn.transactionId}>
+                    <tr className="mobile-font" key={trxn.transactionId}>
                       <td>{trxn.transactionId}</td>
                       <td style={{ textAlign: "left" }}>
-                        03rd March,2023<br/>
+                        03/03/2023<br/>
                         <span className="trxn-time">4:43pm</span>
                       </td>
                       <td>{trxn.amount}</td>

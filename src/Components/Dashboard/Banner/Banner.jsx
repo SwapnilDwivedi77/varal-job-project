@@ -12,7 +12,7 @@ function Banner() {
                 </div>
 
             </div>
-            <div className="banner-body">
+            <div className="banner-body row ">
             <p className="banner-welcome-text">Welcome, Ruhma Tariq</p>
             <span className="banner-welcome-subtext">Check your activities in this dashboard.</span>
             <div className="banner-buttons">
@@ -22,7 +22,7 @@ function Banner() {
             
 
             </div>
-            <div className="banner-image">
+            <div className="banner-image desktop-only">
             <img src={bannerImage} />
             </div>
         </div>

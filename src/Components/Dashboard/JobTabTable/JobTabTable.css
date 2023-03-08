@@ -36,3 +36,9 @@
     text-align: center;
 
 }
+@media only screen and (max-width:768px) {
+    .job-heading-1 , .job-heading-1 {
+        font-size: 20px;
+line-height: 27px;
+    }
+}

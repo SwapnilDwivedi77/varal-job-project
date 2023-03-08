@@ -8,11 +8,11 @@ function JobTabTable() {
     <div className='job-table-container'>
         <div className='job-table-tabs'>
             <div className="job-heading-1">
-            Recently Applied Jobs
+            Recently Applied
             <div class='selected-tab'></div>
             </div>
             <div className="job-heading-2">
-            Recommended Jobs
+            Recommended
             </div>
         </div>
         
