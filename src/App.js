@@ -41,7 +41,6 @@ function App() {
         <Route path='/dashboard' element={<Dashboard/>} />
         <Route path="/proposal" element={<Proposal/>} />
         <Route path='/profile' element={<ProfilePage/>}/>
-        <Route path='/dashboard' element={<Dashboard/>} />
         {/* <Route path="/jobsCard" element={<FooterMobileNav/>} /> */}
       </Routes>
    {/* <Footer/> */}
