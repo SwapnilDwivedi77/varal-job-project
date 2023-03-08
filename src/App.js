@@ -17,6 +17,7 @@ import TransactionHistory from './Components/TransactionHistory';
 import Dashboard from './Components/Dashboard/Dashboard';
 import WelcomePage from './Components/WelcomePage/WelcomePage';
 import Proposal from './Components/Proposal/Proposal';
+import ProfilePage from './Components/ProfilePage/ProfilePage';
 // import FooterMobileNav from './Shared/FooterMobileNav/FooterMobileNav';
 // import JobsCard from './Components/JobsCard/JobsCard';
 
@@ -39,6 +40,7 @@ function App() {
         <Route path="/notifications" element={<Notifications/>} />
         <Route path='/dashboard' element={<Dashboard/>} />
         <Route path="/proposal" element={<Proposal/>} />
+        <Route path='/profile' element={<ProfilePage/>}/>
         {/* <Route path="/jobsCard" element={<FooterMobileNav/>} /> */}
       </Routes>
    {/* <Footer/> */}
